@@ -2,9 +2,9 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const loginRoutes = require('../modules/login/login.routes');
-const registerRoutes = require('../modules/register/register.routes');
-const AddPlanRouters = require('../modules/add-new-plan/add-new-plan.router');
+const loginRoutes = require('./modules/login/login.routes');
+const registerRoutes = require('./modules/register/register.routes');
+const AddPlanRouters = require('./modules/add-new-plan/add-new-plan.router');
 
 
 app.use(cors());
